@@ -29,6 +29,8 @@ It features 3 control bits: **x0** negates operand B, **x1** adds operand A to o
 ### Control Unit
 It is implemented via a ROM memory and uses microprogrammed logic composed of minterms. Based on the instruction, external signals, and the internal state of the machine, it generates the necessary control signals to execute each individual microstep.
 
+![Control Unit ROM](images/rom.png)
+
 ---
 
 ## Instructions
